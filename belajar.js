@@ -7,3 +7,9 @@ if (req.body.email && req.body.password) {
     err.status = 401;
     return next(err);
 }
+function userDidLogin() {
+    const username = ""
+    const password = ""
+
+    // TODO: post to API login with credentials
+}
